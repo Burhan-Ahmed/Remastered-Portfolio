@@ -59,27 +59,33 @@
     </header>
 
     <body>
-        <form action="">
-            <div class="space-y-7 border border-black p-10">
+        <div class="space-y-2 border border-black mx-44 my-32 rounded-lg ">
+            <div class="border-b font-semibold border-black text-2xl ps-14 py-2">
+                <h1>
+                    Contact Us
+                </h1>
+            </div>
+            <form action="" class="space-y-5 py-6 ps-14">
                 <div class="flex justify-start">
-                    <label for="name">
+                    <label for="name" class="w-24">
                         Your Name
                     </label>
                     <input name="name" type="text" required placeholder="Enter Your Name"
-                        class="ms-9 px-3 py-0.5 border border-slate-950 rounded-xl">
+                        class="mx-9 w-full px-3 py-0.5 border border-slate-300 rounded-lg">
                 </div>
                 <div class="flex justify-start">
-                    <label for="Email">
+                    <label for="Email" class="w-24">
                         Your Email
                     </label>
-                    <input name="Email" type="email" required placeholder="Enter Your Email Address"
-                        class="ms-11 px-3 py-0.5 border-slate-950 rounded-xl">
+                    <input name="Email" type="email" required placeholder="Enter Email Address"
+                        class="mx-9 w-full px-3 py-0.5 border border-slate-300 rounded-lg">
                 </div>
                 <div class="flex justify-start">
-                    <label for="Remarks">
-                        Student Remarks
+                    <label for="Remarks" class="w-24">
+                        Message
                     </label>
-                    <textarea name="Remarks" class="ms-5 px-3 py-0.5 border-slate-950 rounded-xl"
+                    <textarea name="Remarks" rows="3" spellcheck="false" placeholder="Enter"
+                        class="mx-9 w-full px-3 py-0.5 border border-slate-300 rounded-lg"
                         required>                        </textarea>
                 </div>
                 <div class=" flex justify-center">
@@ -88,14 +94,14 @@
                         Submit
                     </button>
                 </div>
-            </div>
-        </form>
+            </form>
+        </div>
     </body>
 
     <footer class="border">
         <div class="border flex justify-around py-7">
             <div>
-                <h1 class="flex justify-center text-xl">
+                <h1 class="flex justify-center text-xl font-semibold">
                     E-COMMERCE STORE
                 </h1>
                 <p>
@@ -109,7 +115,7 @@
                 </p>
             </div>
             <div>
-                <h1>
+                <h1 class="font-semibold">
                     LINKS
                 </h1>
                 <ul>
@@ -120,7 +126,7 @@
                 </ul>
             </div>
             <div>
-                <h1>
+                <h1 class="font-semibold">
                     LINKS
                 </h1>
                 <ul>
