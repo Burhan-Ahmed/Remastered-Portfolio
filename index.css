@@ -1,0 +1,347 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    margin-left: 10px;
+    padding-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    font-weight: bold;
+}
+
+.main {
+    background-image: url(./imgs/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 27vw;
+}
+
+.card-title {
+    font-size: larger;
+}
+
+.btn {
+    padding-left: 0.4cm;
+    padding-right: 0.4cm;
+    padding-top: 0.15cm;
+    padding-bottom: 0.2cm;
+    border-radius: 1cm;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.foot {
+    margin-top: 1.5cm;
+    border-top: 1px solid black;
+    background-color: darkgray;
+    padding-left: 6cm;
+    padding-right: 6cm;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 2cm;
+}
+
+.flow {
+    padding-top: 0.14cm;
+    font-weight: bold;
+}
+
+.sociallink {
+    margin-top: 0.5cm;
+    display: flex;
+    justify-content: end;
+    gap: 0.5cm;
+}
+
+.ending {
+    display: flex;
+    justify-content: center;
+}
+
+.Contactform {
+    padding: 0.5cm;
+    border: 1px solid black;
+    display: flex;
+    line-height: 1.5cm;
+    justify-content: end;
+    border-radius: 0.2cm;
+}
+
+.formHeading {
+    border-right: 1px solid black;
+    margin-right: 0.5cm;
+    padding-right: 0.5cm;
+}
+
+.submit {
+    outline: none;
+    background: none;
+    border-radius: 1cm;
+    padding: 0.2cm 0.8cm;
+    border: 1px solid black;
+}
+
+.submit:hover {
+    transition: all 0.4s ease;
+    color: white;
+    background-color: black;
+}
+
+.secondSection {
+    border-bottom: 1px solid black;
+}
+
+.AllCards {
+    display: grid;
+    gap: 20px;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1pc auto;
+    /* Center horizontally */
+    width: 70%;
+
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 0.2cm;
+    text-align: center;
+    padding: 20px;
+    background-color: lightyellow;
+}
+
+.secondheading {
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.thirdheading {
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    width: 100vw;
+}
+
+.under {
+    text-decoration: underline;
+}
+
+.quote {
+    font-size: x-large;
+    width: fit-content;
+    text-align: center;
+    color: lightyellow;
+
+}
+
+.uni-logo {
+    padding-top: 0.5cm;
+    font-size: x-large;
+    line-height: 0.8cm;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px black solid;
+    padding-left: 3cm;
+    padding-right: 3cm;
+}
+
+.landing-section p {
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    padding-right: 45vw;
+}
+
+.navbarNav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.7cm;
+    font-size: larger;
+}
+
+.nav-link {
+    color: gray;
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+a .uni-logo {
+    color: black;
+}
+
+
+#Menue .card img:hover {
+    transform: scale(1.1);
+}
+
+/* Classes and Effects on hover */
+.logo {
+    width: 42%;
+}
+
+.review p {
+    padding-right: 0%;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-right: 5px;
+}
+
+.btn:hover {
+    background-color: lightyellow;
+    cursor: pointer;
+}
+
+.card-body a {
+    color: black;
+    cursor: pointer;
+}
+
+.card-body a:hover {
+    transition: all 0.4s ease;
+    color: white;
+    background-color: black;
+}
+
+.landing-section {
+    background-image: url("imgs/fresh chilled coffee2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.shop-now-link:hover {
+    background-color: white;
+    cursor: pointer;
+    border-radius: 17px;
+}
+
+.shop-now-link:hover {
+    background-color: white;
+    cursor: pointer;
+    border-radius: 17px;
+}
+
+.display-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 100%;
+    padding-top: 200px;
+}
+
+li:last-child {
+    border-right: none;
+    margin-right: 8px;
+}
+
+.nav-link:not(.shop-now-link) {
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+.nav-link:not(.shop-now-link)::before {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 2px;
+    bottom: 2px;
+    background-color: white;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.5s ease;
+}
+
+.nav-link:not(.shop-now-link):hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.shop-now-link {
+    transition: all 0.4s ease;
+}
+
+.container-xxl {
+    margin-top: auto;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    section#About .btn {
+        font-size: small !important;
+    }
+
+    section#About p {
+        font-size: large !important;
+    }
+
+    section#About p.Second {
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+
+    span .links {
+        padding-right: 10px;
+    }
+
+    .display-1 {
+        font-size: xx-large;
+    }
+
+    .nav-link {
+        font-size: small;
+    }
+
+    .text-light {
+        font-size: small;
+        padding-right: 35%;
+    }
+
+    a {
+        font-size: 0.5rem;
+    }
+
+    footer p {
+        font-size: small;
+        display: inline;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    footer a {
+        font-size: smaller;
+        line-break: auto;
+        vertical-align: top;
+    }
+
+    footer .fa-linkedin {
+        margin-right: 8px;
+    }
+}
