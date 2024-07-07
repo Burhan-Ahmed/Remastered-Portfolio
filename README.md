@@ -1,2 +1,2 @@
-# UniversitySiteClone
-I build a clone of university Website that was given me as a task for Internship
+# Remastered-Portfolio
+Build my Portfolio using HTML and CSS for the completion of Internship Task
