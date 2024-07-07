@@ -1,230 +1,139 @@
-<!DOCTYPE html>
 <html lang="en">
 
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- CSS Style Sheet -->
         <link rel="stylesheet" href="index.css">
-        <!-- Icon in the page title -->
-        <link href="imgs/university.png" rel="icon" type="image/png" />
-        <!-- Font-Awesome -->
+        <link href="imgs/user.png" rel="icon" type="image/png" />
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
             rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <!-- Title of Page -->
         <title>My Portfolio</title>
     </head>
 
     <body>
-        <!--Landing Page -->
-        <section id="home" class="landing-section">
-            <!-- Navigation bar -->
-            <div class="landing">
-                <nav class="navbar">
-                    <ul class="navbarNav">
-                        <li class="nav-item">
-                            <a href="#About" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#home" class="nav-link">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#Menue" class=" nav-link">Event</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#Menue" class="nav-link">Blogs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#Menue" class="nav-link">Courses</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#Menue" class="nav-link">Staff</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="main display-1">
-                    <div class="quote">
-                        <div class="heading">
-                            <h4 class="under">The Best Learning Institution</h4>
-                            <h1>
-                                Hello! I am Burhan
-                            </h1>
-                        </div>
-                        <h6>
-                            We believe there is nothing more important than education
-                        </h6>
-                    </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#Home">Home</a>
+                </li>
+                <li>
+                    <a href="#About">About</a>
+                </li>
+                <li>
+                    <a href="#Skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#Experience">Experience</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="main">
+            <div class="info">
+                <div class="heading">
+                    <h1>
+                        Hello! I am Burhan
+                    </h1>
+                    <h4>I am a {Developer,UI Designer}</h4>
+                </div>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                    of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of
+                    Lorem Ipsum.
+                </p>
+                <div class="sociallink">
+                    <a href="https://www.facebook.com/Starbucks" target="_blank"><i class="fab fa-facebook fa-2x me-2"
+                            style="color: #000;"></i></a>
+                    <a href="https://www.youtube.com/@starbucks" target="_blank"><i class="fab fa-youtube fa-2x mx-2"
+                            style="color: #000;"></i></a>
+                    <a href="https://www.instagram.com/starbucks/" target="_blank"><i
+                            class="fab fa-instagram fa-2x mx-2" style="color: #000;"></i></a>
+                    <a href="https://www.linkedin.com/company/starbucks/" target="_blank"><i
+                            class="fab fa-linkedin fa-2x ms-2" style="color: #000;"></i></a>
                 </div>
             </div>
-        </section>
-        <!-- Secondary Content -->
+            <div class="photoSection">
+                <div class="myphoto">
+                </div>
+            </div>
+        </div>
+
+
         <section class="secondSection">
             <div class="secondheading">
                 <h2>Course Categories</h2>
             </div>
-            <div class="AllCards">
-                <div class="card" style="width: 20rem;">
-                    <img src="imgs/investment.png" width="50" alt="Business Logo">
-                    <div class="card-body">
-                        <h5 class="card-title">Business</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur
-                            adipisicing
-                            elit. Totam atque. Lorem ipsum dolor Minima praesentium.</p>
-                        <a href="login/index.html" class="btn ">Enroll Now</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 20rem;">
-                    <img src="imgs/accounting.png" width="50" alt="Accounting Logo">
-                    <div class="card-body">
-                        <h5 class="card-title">Accounting</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur
-                            adipisicing
-                            elit. Totam atque. Lorem ipsum dolor Minima praesentium.</p>
-
-                        <a href="login/index.html" class="btn">Enroll Now</a>
-
-                    </div>
-                </div>
-                <div class="card" style="width: 20rem;">
-                    <img src="imgs/chemistry.png" width="50" alt="Science Logo">
-                    <div class="card-body">
-                        <h5 class="card-title">Science </h5>
-                        <p>Lorem ipsum dolor sit amet consectetur
-                            adipisicing
-                            elit. Totam atque. Lorem ipsum dolor Minima praesentium.</p>
-
-                        <a href="login/index.html" class="btn">Enroll Now</a>
-
-                    </div>
-                </div>
-                <div class="card" style="width: 20rem;">
-                    <img src="imgs/healthcare.png" width="50" alt="Healthcare Logo">
-                    <div class="card-body">
-                        <h5 class="card-title">Health</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Totam
-                            atque.</p>
-                        <a href="login/index.html" class="btn">Enroll Now</a>
-
-                    </div>
-                </div>
-                <div class="card" style="width: 20rem;">
-                    <img src="imgs/diet.png" width="50" alt="Food Logo">
-                    <div class="card-body">
-                        <h5 class="card-title">Food</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Totam
-                            atque.</p>
-                        <a href="login/index.html" class="btn">Enroll Now</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 20rem;">
-                    <img src="imgs/palette.png" width="50" alt="Arts Logo">
-                    <div class="card-body">
-                        <h5 class="card-title">Arts</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Totam
-                            atque.</p>
-                        <a href="login/index.html" class="btn">Enroll Now</a>
-                    </div>
-                </div>
-            </div>
         </section>
-        <section>
-            <div class="thirdheading">
-                <h2>Plans and Pricing</h2>
-            </div>
-            <div class="AllCards">
-                <div class="card" style="width: 20rem;">
-                    <img src="imgs/bronze-medal.png" width="50" alt="Food Logo">
-                    <div class="card-body">
-                        <h3 class="card-title">Trials</h3>
-                        <h5>$30 per month</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Totam
-                            atque.</p>
-                        <a href="login/index.html" class="btn">Purchase</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 20rem;">
-                    <img src="imgs/silver-medal.png" width="50" alt="Food Logo">
-                    <div class="card-body">
-                        <h5 class="card-title">Silver</h5>
-                        <h5>$60 per month</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Totam
-                            atque.</p>
-                        <a href="login/index.html" class="btn">Purchase</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 20rem;">
-                    <img src="imgs/gold-medal.png" width="50" alt="Food Logo">
-                    <div class="card-body">
-                        <h5 class="card-title">Gold</h5>
-                        <h5>$90 per month</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Totam
-                            atque.</p>
-                        <a href="login/index.html" class="btn">Purchase</a>
-                    </div>
+        <div class="thirdheading">
+            <h2>Contact Me</h2>
+        </div>
+        <div class="AllCards">
+            <div class="card" style="width: 20rem;">
+                <img src="imgs/location.png" width="50" alt="Food Logo">
+                <div class="card-body">
+                    <h3 class="card-title">Address</h3>
+                    <h5>$30 per month</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Totam
+                        atque.</p>
+                    <a href="login/index.html" class="btn">Purchase</a>
                 </div>
             </div>
-        </section>
-        <section class="foot">
-            <h2>Learn More About Us</h2>
-            <footer class="main-footer">
-                <div>
-                    <a href="https://stories.starbucks.com/" target="_blank">
-                        <button class="btn"> My Account</button>
-                    </a>
-                    <a href="https://stories.starbucks.com/" target="_blank">
-                        <button class="btn">Stories &amp; News</button>
-                    </a>
-                    <a href="https://www.starbucks.com/about-us/business-ethics-and-compliance/" target="_blank">
-                        <button class="btn">Ethics &amp;
-                            Compliance</button>
-                    </a>
-                    <a href="https://www.starbucks.com/about-us/corporate-governance/" target="_blank">
-                        <button class="btn">Corporate Governance</button>
-                    </a>
+            <div class="card" style="width: 20rem;">
+                <img src="imgs/email.png" width="50" alt="Food Logo">
+                <div class="card-body">
+                    <h5 class="card-title">Email</h5>
+                    <h5>$60 per month</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Totam
+                        atque.</p>
+                    <a href="login/index.html" class="btn">Purchase</a>
                 </div>
-                <div class="Contactform">
-                    <div class="formHeading">
-                        <h2>Contact Us</h2>
-                    </div>
-                    <form>
-                        <div>
-                            <label for="name">Your Name</label>
-                            <input type="text" name="name">
-                        </div>
-                        <div>
-                            <label for="email">Your Email</label>
-                            <input type="text" name="email">
-                        </div>
-                        <div>
-                            <label for="email">Your Message</label>
-                            <textarea name="" id="">Write here</textarea>
-                        </div>
-                        <button class="submit">Send</button>
-                    </form>
-                </div>
-            </footer>
-            <span class="sociallink">
-                <div class="flow">Follow Us</div>
-                <a href="https://www.facebook.com/Starbucks" target="_blank"><i class="fab fa-facebook fa-2x me-2"
-                        style="color: #000;"></i></a>
-                <a href="https://www.youtube.com/@starbucks" target="_blank"><i class="fab fa-youtube fa-2x mx-2"
-                        style="color: #000;"></i></a>
-                <a href="https://www.instagram.com/starbucks/" target="_blank"><i class="fab fa-instagram fa-2x mx-2"
-                        style="color: #000;"></i></a>
-                <a href="https://www.linkedin.com/company/starbucks/" target="_blank"><i
-                        class="fab fa-linkedin fa-2x ms-2" style="color: #000;"></i></a>
-            </span>
-            <div class="ending">
-                <p>&copy; 2024 University of Education. All rights reserved.</p>
             </div>
-        </section>
+            <div class="card" style="width: 20rem;">
+                <img src="imgs/phone.png" width="50" alt="Food Logo">
+                <div class="card-body">
+                    <h5 class="card-title">Contact</h5>
+                    <h5>$90 per month</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Totam
+                        atque.</p>
+                    <a href="login/index.html" class="btn">Purchase</a>
+                </div>
+            </div>
+        </div>
     </body>
+    <footer class="main-footer">
+        <div class="Contactform">
+            <div class="formHeading">
+                <h2>Contact Us</h2>
+            </div>
+            <form>
+                <div>
+                    <label for="name">Your Name</label>
+                    <input type="text" name="name">
+                </div>
+                <div>
+                    <label for="email">Your Email</label>
+                    <input type="text" name="email">
+                </div>
+                <div>
+                    <label for="email">Your Message</label>
+                    <textarea name="" id="">Write here</textarea>
+                </div>
+                <button class="submit">Send</button>
+            </form>
+        </div>
+        <div class="ending">
+            <p>&copy; 2024 University of Education. All rights reserved.</p>
+        </div>
+    </footer>
 
 </html>
